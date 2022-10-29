@@ -1,0 +1,91 @@
+▿ File
+  ▿ attributes: Optional<Array<Attribute>>
+    ▿ some: 1 element
+      ▿ Attribute
+        - count: 1
+        - dataType: Optional<DataType>.none
+        - name: "Cool"
+        - values: Optional<Array<String>>.none
+  ▿ nodes: 5 elements
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "<b>the bold</b>"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "boldNodeId"
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "<i>the underlined</i>"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "underlineNodeId"
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "<mark>the highlighted</mark>"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "highlightNodeId"
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "<del>the striked</del>"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "strikedNodeId"
+    ▿ Node
+      ▿ children: Optional<Array<Node>>
+        ▿ some: 1 element
+          ▿ Node
+            - children: Optional<Array<Node>>.none
+            - codeLanguage: Optional<String>.none
+            - createdAt: Optional<Double>.none
+            - editedAt: Optional<Double>.none
+            - mediaURL: Optional<URL>.none
+            - name: "<b>a bold field value</b>"
+            - refs: Optional<Array<String>>.none
+            - supertags: Optional<Array<String>>.none
+            - todoState: Optional<TodoState>.none
+            - type: NodeType.node
+            ▿ uid: Optional<String>
+              - some: "boldFiledValueId"
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "Cool"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.field
+      ▿ uid: Optional<String>
+        - some: "boldFielId"
+  - summary: Optional<Summary>.none
+  - supertags: Optional<Array<Supertag>>.none
+  - version: "TanaIntermediateFile V0.1"

@@ -1,0 +1,32 @@
+▿ File
+  - attributes: Optional<Array<Attribute>>.none
+  ▿ nodes: 2 elements
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "A task"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      ▿ todoState: Optional<TodoState>
+        - some: TodoState.toDo
+      - type: NodeType.node
+      - uid: Optional<String>.none
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "A completed task"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      ▿ todoState: Optional<TodoState>
+        - some: TodoState.done
+      - type: NodeType.node
+      - uid: Optional<String>.none
+  - summary: Optional<Summary>.none
+  - supertags: Optional<Array<Supertag>>.none
+  - version: "TanaIntermediateFile V0.1"

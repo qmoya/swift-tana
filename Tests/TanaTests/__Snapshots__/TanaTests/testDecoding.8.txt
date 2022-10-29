@@ -1,0 +1,114 @@
+▿ File
+  - attributes: Optional<Array<Attribute>>.none
+  ▿ nodes: 2 elements
+    ▿ Node
+      ▿ children: Optional<Array<Node>>
+        ▿ some: 3 elements
+          ▿ Node
+            - children: Optional<Array<Node>>.none
+            - codeLanguage: Optional<String>.none
+            - createdAt: Optional<Double>.none
+            - editedAt: Optional<Double>.none
+            - mediaURL: Optional<URL>.none
+            - name: "some image"
+            - refs: Optional<Array<String>>.none
+            - supertags: Optional<Array<String>>.none
+            - todoState: Optional<TodoState>.none
+            - type: NodeType.image
+            - uid: Optional<String>.none
+          ▿ Node
+            - children: Optional<Array<Node>>.none
+            - codeLanguage: Optional<String>.none
+            - createdAt: Optional<Double>.none
+            - editedAt: Optional<Double>.none
+            - mediaURL: Optional<URL>.none
+            - name: "some other image"
+            - refs: Optional<Array<String>>.none
+            - supertags: Optional<Array<String>>.none
+            - todoState: Optional<TodoState>.none
+            - type: NodeType.image
+            - uid: Optional<String>.none
+          ▿ Node
+            ▿ children: Optional<Array<Node>>
+              ▿ some: 2 elements
+                ▿ Node
+                  - children: Optional<Array<Node>>.none
+                  - codeLanguage: Optional<String>.none
+                  - createdAt: Optional<Double>.none
+                  - editedAt: Optional<Double>.none
+                  - mediaURL: Optional<URL>.none
+                  - name: "some image"
+                  - refs: Optional<Array<String>>.none
+                  - supertags: Optional<Array<String>>.none
+                  - todoState: Optional<TodoState>.none
+                  - type: NodeType.image
+                  ▿ uid: Optional<String>
+                    - some: "firstImageId"
+                ▿ Node
+                  - children: Optional<Array<Node>>.none
+                  - codeLanguage: Optional<String>.none
+                  - createdAt: Optional<Double>.none
+                  - editedAt: Optional<Double>.none
+                  - mediaURL: Optional<URL>.none
+                  - name: "some other image"
+                  - refs: Optional<Array<String>>.none
+                  - supertags: Optional<Array<String>>.none
+                  - todoState: Optional<TodoState>.none
+                  - type: NodeType.image
+                  ▿ uid: Optional<String>
+                    - some: "secondImageId"
+            - codeLanguage: Optional<String>.none
+            - createdAt: Optional<Double>.none
+            - editedAt: Optional<Double>.none
+            - mediaURL: Optional<URL>.none
+            - name: "[[firstImageId]] [[secondImageId]]"
+            ▿ refs: Optional<Array<String>>
+              ▿ some: 2 elements
+                - "firstImageId"
+                - "secondImageId"
+            - supertags: Optional<Array<String>>.none
+            - todoState: Optional<TodoState>.none
+            - type: NodeType.node
+            - uid: Optional<String>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "Photo demo"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "container"
+    ▿ Node
+      ▿ children: Optional<Array<Node>>
+        ▿ some: 1 element
+          ▿ Node
+            - children: Optional<Array<Node>>.none
+            - codeLanguage: Optional<String>.none
+            - createdAt: Optional<Double>.none
+            - editedAt: Optional<Double>.none
+            - mediaURL: Optional<URL>.none
+            - name: "image"
+            - refs: Optional<Array<String>>.none
+            - supertags: Optional<Array<String>>.none
+            - todoState: Optional<TodoState>.none
+            - type: NodeType.image
+            ▿ uid: Optional<String>
+              - some: "myImageId"
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "[[myImageId]] with text following"
+      ▿ refs: Optional<Array<String>>
+        ▿ some: 1 element
+          - "myImageId"
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      - uid: Optional<String>.none
+  - summary: Optional<Summary>.none
+  - supertags: Optional<Array<Supertag>>.none
+  - version: "TanaIntermediateFile V0.1"

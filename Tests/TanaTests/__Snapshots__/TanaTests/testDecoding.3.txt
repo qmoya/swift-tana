@@ -1,0 +1,65 @@
+▿ File
+  ▿ attributes: Optional<Array<Attribute>>
+    ▿ some: 1 element
+      ▿ Attribute
+        - count: 1
+        - dataType: Optional<DataType>.none
+        - name: "Owner"
+        - values: Optional<Array<String>>.none
+  ▿ nodes: 2 elements
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "Jack"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "jackId"
+    ▿ Node
+      ▿ children: Optional<Array<Node>>
+        ▿ some: 1 element
+          ▿ Node
+            ▿ children: Optional<Array<Node>>
+              ▿ some: 1 element
+                ▿ Node
+                  - children: Optional<Array<Node>>.none
+                  - codeLanguage: Optional<String>.none
+                  - createdAt: Optional<Double>.none
+                  - editedAt: Optional<Double>.none
+                  - mediaURL: Optional<URL>.none
+                  - name: "[[jackId]]"
+                  ▿ refs: Optional<Array<String>>
+                    ▿ some: 1 element
+                      - "jackId"
+                  - supertags: Optional<Array<String>>.none
+                  - todoState: Optional<TodoState>.none
+                  - type: NodeType.node
+                  - uid: Optional<String>.none
+            - codeLanguage: Optional<String>.none
+            - createdAt: Optional<Double>.none
+            - editedAt: Optional<Double>.none
+            - mediaURL: Optional<URL>.none
+            - name: "Owner"
+            - refs: Optional<Array<String>>.none
+            - supertags: Optional<Array<String>>.none
+            - todoState: Optional<TodoState>.none
+            - type: NodeType.field
+            - uid: Optional<String>.none
+      - codeLanguage: Optional<String>.none
+      - createdAt: Optional<Double>.none
+      - editedAt: Optional<Double>.none
+      - mediaURL: Optional<URL>.none
+      - name: "Holder"
+      - refs: Optional<Array<String>>.none
+      - supertags: Optional<Array<String>>.none
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      - uid: Optional<String>.none
+  - summary: Optional<Summary>.none
+  - supertags: Optional<Array<Supertag>>.none
+  - version: "TanaIntermediateFile V0.1"

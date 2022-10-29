@@ -1,0 +1,27 @@
+▿ File
+  - attributes: Optional<Array<Attribute>>.none
+  ▿ nodes: 1 element
+    ▿ Node
+      - children: Optional<Array<Node>>.none
+      - codeLanguage: Optional<String>.none
+      ▿ createdAt: Optional<Double>
+        - some: 1654674792663.0
+      ▿ editedAt: Optional<Double>
+        - some: 1654674792663.0
+      - mediaURL: Optional<URL>.none
+      - name: "Some meeting"
+      - refs: Optional<Array<String>>.none
+      ▿ supertags: Optional<Array<String>>
+        ▿ some: 1 element
+          - "meetingTagId"
+      - todoState: Optional<TodoState>.none
+      - type: NodeType.node
+      ▿ uid: Optional<String>
+        - some: "someMeetingId"
+  - summary: Optional<Summary>.none
+  ▿ supertags: Optional<Array<Supertag>>
+    ▿ some: 1 element
+      ▿ Supertag
+        - name: "Meeting"
+        - uid: "meetingTagId"
+  - version: "TanaIntermediateFile V0.1"
